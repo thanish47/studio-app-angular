@@ -1,22 +1,22 @@
 # Yanthram Studio - Angular
 
 ## About the application
- This application is a low code platform to accelerate the initial development time rapidly by offering mostly used Angular components. These leaf level functional and page level components are independent functional units are to be used with any existing Angular based application. The exported output of this application can be a single or multiple components of a specific version. The offerings are developer centric and intended to help the developers to quickly have a component code generated and used in their applications that can be used as a base and further worked on by fine tuning the details or extend the functionality, as required.
+ This is a low-code platform that helps developers move faster by offering the most commonly used Angular components — both leaf-level and page-level. These are independent, self-contained units that plug into any existing Angular application. Each exported component is versioned, and the whole platform is developer-centric: pick a component, generate the code, drop it into your project, and fine-tune or extend it from there.
 
- The application provides a playground which is a WYSIWYG enabling user to drag and drop the UI components onto it. The configuration section enables the user to configure the selected component's functional behavior, data source, styling aspects, localisation etc. Once the configuration is tuned as required, user can export the component. This step generates the metadata in JSON format, which is further used by the internal code generator to produce and export the code as angular component.
+ The playground is a WYSIWYG editor where you drag and drop UI components onto a canvas. A configuration panel lets you control each component's behaviour, data source, styling, and localisation. When it looks right, hit export — the platform generates JSON metadata and runs it through the code generator to produce a ready-to-use Angular component.
 
- This project itself is built in Angular and the components that are configured in the playground are exported as-is. This is greatest feature of this application as the user will not only get the same experience and functionality that he experienced on the first hand, but also the same code that is behind that experience.
+ The studio itself is built in Angular, and the components you configure are exported exactly as they run here. That's the best part — what you see and experience in the playground is precisely what lands in your codebase, code and all.
 
  ## Live app
   You can see this application in action here:
   👉 <a href="https://angularstudio.thanish.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
 
 ## It's Story
- This Project is an evolving story to build a low code platform that is developer centric and is very generic. The intention is to build a platform that would help the developers in their daily development with no strings attached. While this project was developed to help to serve as a testimonial of my portfolio outside my professional work. Added is my desire to contribute something to the developer community, in my own way.
+ This is an evolving project — a developer-centric, open-ended low-code platform with no strings attached. The goal is to build something that genuinely helps developers in their day-to-day work. It started as a portfolio piece outside my professional work, but it also became a way to give something back to the developer community, in my own way.
 
- The idea started from my experiences as part of job, architecting and developing multiple projects that also includes low code platform and integration of 3rd party accelerators. During my exploration. As I see, most of the developers have troubles starting clean slate and the momentum is slow in the beginning of each major component development, accumulating the initial delays. On the other hand, they are fast to complete I have always felt that most of the low code platforms were mostly business centric and not developer centric. Additionally, few of the platforms that claim to offer rapid development, will eventually tie the org/developers to stay on their platform for the lifetime of development and sometimes even for hosting too. If not, they are economically not viable for all the organizations. 
- 
- The studio and the components it exports are open source under the MIT License, free for developers to use in their own applications.
+ The idea came from years of architecting and building projects at work, including low-code platforms and third-party accelerators. One thing I kept noticing: developers are quick once they get going, but starting from a clean slate on a major component always slows things down at the beginning. On top of that, most low-code platforms I've come across are built for business users, not developers. The ones that do claim to speed up development often end up locking you in — to their platform, their tools, and sometimes even their hosting. The ones that don't are rarely economically viable for all organisations.
+
+ Everything this project produces is free — use it as a base, adapt it, and make it your own.
 
 ## Tech Stack
  This application was initially built on Angular v16.1 and will be constantly updated to the latest version of angular. As of now, application is revised to Angular v20. While the studio application uses mainly Angular Material UI and other JS libraries, the components exported can either be using Angular Material or any other library, if and as required by that component.
